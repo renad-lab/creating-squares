@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const button = document.createElement("button");
 
-button.textContent = "Enter";
+button.textContent = "Click me!";
 body.appendChild(button);
 const buttonSize = getElementSize(button);
 
